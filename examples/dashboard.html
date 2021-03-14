@@ -1,3 +1,17 @@
+<!--
+=========================================================
+* Paper Dashboard 2 - v2.0.1
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/paper-dashboard-2
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+
+Coded by www.creative-tim.com
+
+ =========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+-->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,8 +44,8 @@
           </div>
           <!-- <p>CT</p> -->
         </a>
-        <a href="./dashboard.html" class="simple-text logo-normal">
-          Go2Search
+        <a href="https://www.creative-tim.com" class="simple-text logo-normal">
+          User
           <!-- <div class="logo-image-big">
             <img src="../assets/img/logo-big.png">
           </div> -->
@@ -51,6 +65,12 @@
               <p>User Profile</p>
             </a>
           </li>
+          <li class="active-pro">
+            <a href="./upgrade.html">
+              <i class="nc-icon nc-spaceship"></i>
+              <p>Upgrade to PRO</p>
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -66,7 +86,7 @@
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-            <a class="navbar-brand" href="javascript:;">Dashboard</a>
+            <a class="navbar-brand" href="javascript:;">Go2Search</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -121,7 +141,7 @@
       <!-- End Navbar -->
       <div class="content">
         <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-6">
+          <!-- <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="card card-stats">
               <div class="card-body ">
                 <div class="row">
@@ -146,8 +166,33 @@
                 </div>
               </div>
             </div>
+          </div> -->
+          <div class="row">
+          <div class="col-md-12">
+            <div class="card " style="width: 1540px ;">
+              <div class="card-header ">
+                <h5 class="card-title">Introduction</h5>
+                <p class="card-category">Information on errors and their types</p>
+              </div>
+              <div class="card-body " >
+                <p> Go2Search is an online platform to learn how to google errors effectively
+                   and have fun while doing them through challenging quizzes and exercises.
+                  You can learn about the most common types of errors from the wide variety of languages we have to offer.</p>
+              </div>
+              <div class="card-footer ">
+                <div class="legend">
+                  <i class="fa fa-circle text-primary"></i> Types Of Errors 
+                  <i class="fa fa-circle text-warning"></i> Tips and Tricks
+                </div>
+                <hr>
+                <div class="stats">
+                  <i class="fa fa-history"></i> Updated 3 minutes ago
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
+        </div>
+          <!-- <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="card card-stats">
               <div class="card-body ">
                 <div class="row">
@@ -198,8 +243,8 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-6">
+          </div> -->
+          <!-- <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="card card-stats">
               <div class="card-body ">
                 <div class="row">
@@ -224,9 +269,9 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-md-12">
             <div class="card ">
               <div class="card-header ">
@@ -244,32 +289,72 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="row">
-          <div class="col-md-4">
-            <div class="card ">
+          <div class="col-md-4" >
+            <div class="card " style="height: 470px;" >
               <div class="card-header ">
-                <h5 class="card-title">Email Statistics</h5>
-                <p class="card-category">Last Campaign Performance</p>
+                <h5 class="card-title">Android</h5>
+                <p class="card-category">Errors in Android</p>
               </div>
-              <div class="card-body ">
-                <canvas id="chartEmail"></canvas>
+              <div class="card-body " style="text-align: center;">
+                <img src="../assets/img/android.png" >
               </div>
               <div class="card-footer ">
                 <div class="legend">
-                  <i class="fa fa-circle text-primary"></i> Opened
-                  <i class="fa fa-circle text-warning"></i> Read
-                  <i class="fa fa-circle text-danger"></i> Deleted
-                  <i class="fa fa-circle text-gray"></i> Unopened
+                  <i class="fa fa-circle text-primary"></i> Overview
+                  <i class="fa fa-circle text-warning"></i> Challenges
                 </div>
                 <hr>
                 <div class="stats">
-                  <i class="fa fa-calendar"></i> Number of emails sent
+                  <i class="fa fa-calendar"></i> High Scores
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-4">
+            <div class="card " style="height: 470px;">
+              <div class="card-header ">
+                <h5 class="card-title">Django</h5>
+                <p class="card-category">Errors in Django</p>
+              </div>
+              <div class="card-body " style="text-align: center; top: 100px;">
+                <img src="../assets/img/django.png" >
+              </div>
+              <div class="card-footer ">
+                <div class="legend">
+                  <i class="fa fa-circle text-primary"></i> Overview
+                  <i class="fa fa-circle text-warning"></i> Challenges
+                </div>
+                <hr>
+                <div class="stats">
+                  <i class="fa fa-calendar"></i> High Scores
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card " style="height: 470px;">
+              <div class="card-header ">
+                <h5 class="card-title">React</h5>
+                <p class="card-category">Errors in React</p>
+              </div>
+              <div class="card-body " style="text-align: center;">
+                <img src="../assets/img/react.png" >
+              </div>
+              <div class="card-footer ">
+                <div class="legend">
+                  <i class="fa fa-circle text-primary"></i> Overview
+                  <i class="fa fa-circle text-warning"></i> Challenges
+                </div>
+                <hr>
+                <div class="stats">
+                  <i class="fa fa-calendar"></i> High Scores
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-8">
             <div class="card card-chart">
               <div class="card-header">
                 <h5 class="card-title">NASDAQ: AAPL</h5>
@@ -289,7 +374,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
       <footer class="footer footer-black  footer-white ">
